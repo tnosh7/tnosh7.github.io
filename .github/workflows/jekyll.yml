@@ -24,10 +24,9 @@ permissions:
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-22.04
     steps:
