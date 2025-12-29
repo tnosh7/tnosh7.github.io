@@ -2,8 +2,8 @@
 title: JavaScript (1)
 description: 기본 이론
 date: 2024-06-11 12:00:00
-categories: [Web, JavaScript]
-tags: [web, javascript]     # TAG names should always be lowercase
+categories: [Front, JavaScript]
+tags: [front, javascript]     # TAG names should always be lowercase
 ---
 
 # JavaScript (1)
