@@ -11,7 +11,7 @@ tags: [develop, web]     # TAG names should always be lowercase
 ## Performance API의 활용
 
 > 홈페이지 정책상, 테스트 진행 중간에 데이터를 저장하지 않는 경우, 페이지 이동 / 새로고침 / 뒤로가기 등으로 **데이터가 누적·왜곡되는 상황을 방지해야 함**
-> 
+
 
 ⇒ 이를 위해 **클라이언트 단에서 “페이지 진입 방식”을 판단하는 로직**이 필요하여 그 중 하나로 **Performance API**를 활용하였습니다. 
 
@@ -107,6 +107,7 @@ if (nav.type ==="reload" || nav.type ==="back_forward") {
 
 ![img](https://tnosh7.github.io/assets/img/functions/pageMove2.png)
 
+참고) [https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigationTiming/type](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigationTiming/type)
 
 ## 참고) performance.navigation 을 권장하지 않는 이유
 
@@ -121,4 +122,4 @@ if (nav.type ==="reload" || nav.type ==="back_forward") {
 
 ⇒ 현재 표준은 Navigation Timing
 
-참고) [https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigationTiming/type](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigationTiming/type)
+---
