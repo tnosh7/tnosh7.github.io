@@ -107,8 +107,6 @@ if (nav.type ==="reload" || nav.type ==="back_forward") {
 
 ![img](https://tnosh7.github.io/assets/img/functions/pageMove2.png)
 
-참고) [https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigationTiming/type](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigationTiming/type)
-
 ## 참고) performance.navigation 을 권장하지 않는 이유
 
 **`performance.navigation`** 
@@ -121,5 +119,7 @@ if (nav.type ==="reload" || nav.type ==="back_forward") {
 - 확장 불가능 (표준 폐기)
 
 ⇒ 현재 표준은 Navigation Timing
+
+참고) [https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigationTiming/type](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigationTiming/type)
 
 ---

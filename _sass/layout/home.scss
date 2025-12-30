@@ -84,14 +84,9 @@
 } /* #post-list */
 
 .pagination {
-  display: flex;
-  justify-content: center;          /* 주석: 가운데 정렬 */
-  gap: 0.5rem;                      /* 주석: 균일한 간격 */
-  font-family: "Noto Sans KR",
-  "Apple SD Gothic Neo",
-  system-ui, sans-serif;
-  font-weight: 500;
   color: var(--text-color);
+  font-family: Lato, sans-serif;
+  justify-content: space-evenly;
 
   a:hover {
     text-decoration: none;
