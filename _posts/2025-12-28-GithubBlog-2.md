@@ -31,8 +31,8 @@ node.js 모듈을 설치하지 않으면 assets/js/dist/*.min.js Not Found 에�
 1. branch를 master에서 main으로 변경하고 Branch protection rule도 기본값(체크 X)으로 설정한다.
 2. 테마를 설치하기 위해 테마를 검색한 후 zip을 다운로드한다.
     - 참고: 테마 사이트
-        
-        [http://jekyllthemes.org/](http://jekyllthemes.org/) 
+
+      https://jekyllthemes.org/
         
 3. 다운로드한 테마를 압축을 풀어 닉네임.github.io 폴더에 넣는다. 
 4. 테마 초기화를 진행합니다. 
